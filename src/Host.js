@@ -1,0 +1,1 @@
+export var Host = "https://reqres.in";
