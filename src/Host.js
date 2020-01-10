@@ -1,2 +1,2 @@
-// export var Host = "https://reqres.in";
-export var Host = "http://localhost:18000/api/v1";
+export const Host = "https://reqres.in";
+export const FlagrHost = process.env.REACT_APP_FLAGHOST;
