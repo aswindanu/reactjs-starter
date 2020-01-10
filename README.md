@@ -4,10 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Prequisition
 
-Make sure you prepare `.env` in root project for credentials.
-Make sure to start docker `flagr` to activate toggle feature.
-
-### `npm i`
+Make sure you prepare `.env` in root project for credentials.<br />
+Make sure to start docker `flagr` to activate toggle feature.<br />
+Make sure to install all nodeJS requirements.
 
 ## Available Scripts
 
