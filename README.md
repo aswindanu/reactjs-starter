@@ -1,4 +1,12 @@
+Credited to: Faviansyah Arianda Pallas (https://github.com/favians)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Prequisition 
+
+Make sure you prepare `.env` in root project for credentials.<br />
+Make sure to start docker `flagr` to activate toggle feature.<br />
+Make sure to install all nodeJS requirements.
 
 ## Available Scripts
 

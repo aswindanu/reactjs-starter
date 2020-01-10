@@ -1,20 +1,18 @@
 import React, { Component } from "react";
-<<<<<<< HEAD
-import { Link } from "react-router-dom";
-=======
 // import { Link } from "react-router-dom";
->>>>>>> c49ab5e28d849f6558811cf306642d31ce266937
 import { connect } from "unistore/react";
 import { actions } from "../../store";
 import { withRouter } from "react-router-dom";
+import Flag from "../Components/Flagr";
 
-class Header extends Component {
+class Flagr extends Component {
   render() {
     return (
       <div>
-        <header>
-          <h2>This Is Header</h2>
-        </header>
+        <h1>Hello</h1>
+        <Flag
+          value="25000"
+        />
       </div>
     );
   }
@@ -23,4 +21,4 @@ class Header extends Component {
 export default connect(
   "",
   actions
-)(withRouter(Header));
+)(withRouter(Flagr));

@@ -1,10 +1,13 @@
 import createStore from "unistore";
 import axios from "axios";
-import { Host } from "./Host";
+import { Host, FlagrHost } from "./Host";
 
 const initialState = {
   is_login: false,
-  Bearer: ""
+  Bearer: "",
+
+  // Flagr
+  enabled: false,
 };
 
 export const store = createStore(initialState);
@@ -46,5 +49,21 @@ export const actions = store => ({
       .catch(function(error) {
         console.log(error);
       });
-  }
+  },
+
+  GetFlagr: async state => {
+    const request = {
+      method: "GET",
+      url: FlagrHost + "/flags/1",
+    };
+    await axios(request)
+      .then(function(response) {
+        console.log(FlagrHost)
+        console.log(response.data);
+        store.setState({ enabled: response.data['enabled'] });
+      })
+      .catch(function(error) {
+        console.log(error);
+      });
+  },
 });
