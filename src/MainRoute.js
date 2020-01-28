@@ -1,9 +1,9 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 
-import Home from "./Data/Pages/Home";
-import Flagr from "./Data/Pages/Flagr";
-import PatNolPat from "./Data/Pages/404";
+import Home from "./pages/Home";
+import Flagr from "./pages/Flagr";
+import PatNolPat from "./pages/404";
 
 const MainRoute = () => {
   return (

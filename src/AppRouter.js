@@ -4,8 +4,8 @@ import { withRouter } from "react-router-dom";
 import { connect } from "unistore/react";
 import { actions } from "./store";
 
-import Header from "./Data/Universal/Header";
-import Footer from "./Data/Universal/Footer";
+import Header from "./pages/universal/Header";
+import Footer from "./pages/universal/Footer";
 
 class Apps extends Component {
   postSignout = () => {
