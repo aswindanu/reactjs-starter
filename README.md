@@ -1,4 +1,4 @@
-Credited to: Faviansyah Arianda Pallas (https://github.com/favians)
+#### This code was edited. Source credited n copyright: Faviansyah Arianda Pallas (https://github.com/favians)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
